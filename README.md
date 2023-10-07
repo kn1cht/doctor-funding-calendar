@@ -4,6 +4,12 @@ Doctoral Students Funding Calendar helps you to find the best funding progam for
 
 This website is forked from [HCI Calendar](https://hci-calendar.github.io).
 
+# Develop
+```bash
+$ bundle install
+$ bundle exec jekyll serve --watch
+```
+
 # For contributors
 
 Thank you for updating information.
