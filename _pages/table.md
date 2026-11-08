@@ -40,7 +40,7 @@ datatable: true
                 <td>{{ forloop.index }}</td>
                 <td>
                     <a href="{{ program.url }}" target="_blank" rel="noopener noreferrer">
-                        {{ program.full-name }}{% if program.ended %}（終了）{% endif %}
+                        {{ program.full-name }}{% if program.ended %}（終了）{% elsif program.recruitment_closed %}（通常新規募集終了・支援継続中）{% endif %}
                     </a>
                 </td>
                 <td>{{ program.organizer }}</td>

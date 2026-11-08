@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-12 p-4 pb-0">
       <a name="{{ include.name }}"></a>
-      <h2 class="border-bottom mb-1">{{ program.abbr-name }}{% if program.ended %}（終了）{% endif %}</h2>
+      <h2 class="border-bottom mb-1">{{ program.abbr-name }}{% if program.ended %}（終了）{% elsif program.recruitment_closed %}（通常新規募集終了・支援継続中）{% endif %}</h2>
     </div>
   </div>
   <div class="row justify-content-md-center">

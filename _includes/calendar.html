@@ -33,7 +33,7 @@
                   {% assign programdata = site.data.program[program] %}
                   {% capture display_name %}{{programdata.abbr-name}}
                   {% endcapture %}
-                  {% if programdata.month == month and programdata.ended != true %}
+                  {% if programdata.month == month and programdata.ended != true and programdata.recruitment_closed != true %}
                   <a href="#{{ program }}" style="text-decoration: none;"
                       title="{{display_name}}">
                     <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
@@ -58,7 +58,7 @@
       {% assign programdata = site.data.program[program] %}
       {% capture display_name %}{{programdata.abbr-name}}
       {% endcapture %}
-      {% if programdata.month == "不明・不定" and programdata.ended != true %}
+      {% if programdata.month == "不明・不定" and programdata.ended != true and programdata.recruitment_closed != true %}
       <div class="col-3 my-2 px-1">
         <a  href="#{{ program }}" style="text-decoration: none;"
             title="{{display_name}}">
