@@ -1,16 +1,16 @@
 abbr-name: 国際卓越研究大学
 full-name: 国際卓越研究大学（大学ファンド）
-month: 冬～春
+month: 不明・不定
 url : https://www.mext.go.jp/a_menu/kagaku/daigakukenkyuryoku/kokusaitakuetsu_koubo.html
 organizer: 文部科学省
-living_funding: 127.2万円以上（東北大学LEAPの場合）<br>学位プログラム所属の優秀な学生には240万円
+living_funding: 127.2万円（東北大学LEAP一般枠）<br>学位プロ枠240万円。他大学は制度による
 research_funding: （大学ごとに異なる）
-duration: 3年
-eligible_person: 東北大学・東京科学大学・京都大学に所属する博士課程学生
+duration: 大学・制度による（東北大学LEAPは標準修業年限内）
+eligible_person: 認定大学の支援対象となる博士課程学生（東北大学・東京科学大学・京都大学）
 eligible_area: 全分野
 accepted_num: （大学ごとに異なる）
 continuity: 毎年
-deadline: 冬～春
-income_category: 雑所得
-other_income: 学振特別研究員、研究奨励費が出る他のプログラム、一部の奨学金、社会人学生、留学生支援不可（各大学が定める条件による）
-note: 大学全体に対する支援であるため大学ごとに実施内容は大きく異なる。認定大学は東北大学（令和6年度助成開始）・東京科学大学・京都大学の3大学
+deadline: 大学・制度による（東北大学LEAPは4月期・10月期）
+income_category: 支給方法による（LEAP研究奨励費は雑所得）
+other_income: 大学・制度による。LEAP一般枠は学振等との併給、年180万円以上の収入等に制限（学内RA・TA等は例外）。社会人・留学生も条件次第で対象
+note: 掲載金額は東北大学LEAPの例。学生への支援内容・条件は各大学が定める<br><a href="https://pgd.tohoku.ac.jp/rpc/LEAP.html" target="_blank" rel="noopener noreferrer">出典：東北大学LEAP案内</a>・<a href="https://pgd.tohoku.ac.jp/data/r8/LEAPQA_J202607.pdf" target="_blank" rel="noopener noreferrer">LEAP公式Q&A</a>

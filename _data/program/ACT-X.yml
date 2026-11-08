@@ -3,14 +3,15 @@ full-name: 戦略的創造研究推進事業（ACT-X）
 month: 5月
 url : https://www.jst.go.jp/kisoken/act-x/application/index.html
 organizer: 科学技術振興機構
-living_funding: 200万円程度<br>（生活費相当額の補助は学生のみ）
-research_funding: 数百万円程度
+living_funding: 学生本人のRA等経費<br>（従事時間・単価による。年1,000時間×時給2,000円なら年200万円程度）
+research_funding: 450～600万円程度（2年6か月の直接経費総額）
+research_funding_unit: 期間総額
 duration: 2年6ヶ月
-eligible_person: 大学院修士課程・博士課程学生を含む若手研究者（生活費相当額の補助は学生のみ）
+eligible_person: 修士・博士課程学生を含む若手研究者（学位取得後年数等の要件あり）
 eligible_area: JSTが指定する研究領域
-accepted_num: 150件程度（1つの研究領域で30件程度）
+accepted_num: 各領域で最大30件程度（年度・予算による）
 continuity: 毎年
 deadline: 5月頃
 income_category: 給与所得
-other_income: 特になし
-note: 戦略目標に沿った提案を募集。学生は自分自身のRA経費を追加支援として受け取れる
+other_income: 学生本人のRA等経費はACT-X側の併給制限なし。併用制度・所属機関の条件を確認
+note: 学生本人のRA等経費は別途申請。新規採択年度は最大500時間／半年程度

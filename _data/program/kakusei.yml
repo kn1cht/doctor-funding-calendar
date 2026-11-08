@@ -1,16 +1,17 @@
 abbr-name: 覚醒
-full-name: 若⼿研究⼈材によるAIプラットフォーム等を⽤いたディープテック分野の研究開発（覚醒プロジェクト）
+full-name: ディープテック分野の若手人材支援事業（覚醒プロジェクト）
 month: 冬～春
 url : https://kakusei.aist.go.jp/
 organizer: 産業技術総合研究所
-living_funding: 事業費のうち作業費は生活費にも使用可
-research_funding: 300万円程度（作業費・税金含む）
+living_funding: 産総研との雇用契約による給与<br>（事業費総額に含む）
+research_funding: 約300万円（給与・研究費の合計、9か月）
+research_funding_unit: 期間総額
 duration: 9ヶ月
-eligible_person: 大学や研究機関、企業等に所属する大学院生（博士前期・後期課程）・社会人。令和8年4月1日時点で学士取得後15年以内（令和8年度公募）
+eligible_person: 所属のある大学院生・社会人。2026年4月1日時点で学士取得後15年以内
 eligible_area: AI・生命工学・材料化学・量子（令和8年度公募）
-accepted_num: 23件（2026年度）
+accepted_num: 23件（2026年度採択実績）
 continuity: 毎年
 deadline: 2～3月頃（令和8年度は2月9日～3月31日）
 income_category: 給与所得
-other_income: 他機関とのテーマ重複は不可。産総研の契約職員として雇用されるため、特別研究員などは要注意。
-note: 産総研の最先端研究施設とプロジェクトマネージャーの指導を活用するディープテック分野の研究開発支援<br><a href="https://www.aist.go.jp/aist_j/news/announce/pr20260209.html" target="_blank" rel="noopener noreferrer">出典：令和8年度公募概要</a>・<a href="https://www.aist.go.jp/aist_j/news/au20260701.html" target="_blank" rel="noopener noreferrer">採択結果</a>
+other_income: 他機関と同じテーマは不可。産総研の契約職員として雇用されるため、特別研究員などは要注意
+note: 産総研の研究施設とPMの指導を活用する研究開発支援<br><a href="https://www.aist.go.jp/aist_j/news/announce/pr20260209.html" target="_blank" rel="noopener noreferrer">出典：令和8年度公募概要</a>・<a href="https://www.aist.go.jp/aist_j/news/au20260701.html" target="_blank" rel="noopener noreferrer">採択結果</a>

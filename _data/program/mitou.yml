@@ -1,16 +1,17 @@
 abbr-name: 未踏
 full-name: 未踏IT人材発掘・育成事業
 month: 3月
-url : https://www.ipa.go.jp/jinzai/mitou/about.html
+url: https://www.ipa.go.jp/jinzai/mitou/it/2026/koubo.html
 organizer: 情報処理推進機構
-living_funding: 貰った委託費から自由に支出
-research_funding: 最大302.4万円
+living_funding: 作業実績に応じた委託費
+research_funding: 最大302.4万円（約9か月の総額）
+research_funding_unit: 期間総額
 duration: 9ヶ月
-eligible_person: 実施年度4月1日時点で25歳未満
+eligible_person: 実施年度4月1日時点で25歳未満の個人・グループ（全員）。原則国内在住
 eligible_area: ソフトウェア関連分野
-accepted_num: 20件程度
+accepted_num: 年度による
 continuity: 毎年
-deadline: 3月頃
+deadline: 3月頃。事前エントリー必須
 income_category: 事業所得 or 雑所得
-other_income: 特になし
-note: 研究支援ではないが有名なので。採択されるとPMのメンタリング付きでソフトウェア開発に取り組む
+other_income: 期間が重なる未踏アドバンスト・未踏ターゲットとの同時採択不可
+note: IPAと委託契約を結び、PMの指導で開発。委託費は査定・作業実績に応じて支給<br><a href="https://www.ipa.go.jp/jinzai/mitou/it/2026/koubo.html" target="_blank" rel="noopener noreferrer">出典：IPA 2026年度公募概要</a>・<a href="https://www.ipa.go.jp/jinzai/mitou/it/2026/faq.html" target="_blank" rel="noopener noreferrer">公募FAQ</a>

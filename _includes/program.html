@@ -25,7 +25,7 @@
             {{ program.living_funding }}
           </div>
           <div class="col fw-light">
-            <span class="lh-1 fw-bold"><small>研究費・開発費（年額）</small></span><br>
+            <span class="lh-1 fw-bold"><small>研究費・開発費（{{ program.research_funding_unit | default: "年額" }}）</small></span><br>
             {{ program.research_funding }}
           </div>
           <div class="col fw-light">
@@ -43,7 +43,7 @@
             {{ program.eligible_area }}
           </div>
           <div class="col fw-light">
-            <span class="lh-1 fw-bold"><small>採用予定数/年</small></span><br>
+            <span class="lh-1 fw-bold"><small>採用予定数・規模</small></span><br>
             {{ program.accepted_num }}
           </div>
         </div>

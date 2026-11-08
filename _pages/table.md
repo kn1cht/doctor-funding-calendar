@@ -21,11 +21,11 @@ datatable: true
                 <th style="min-width: 100px">名称</th>
                 <th style="min-width: 100px">実施機関</th>
                 <th style="min-width: 100px">生活費<br>（年額）</th>
-                <th style="min-width: 110px">研究費・開発費<br>（年額）</th>
+                <th style="min-width: 110px">研究費・開発費<br>（特記なき場合は年額）</th>
                 <th style="min-width: 100px">期間</th>
                 <th style="min-width: 100px">対象者</th>
                 <th style="min-width: 100px">対象分野</th>
-                <th style="min-width: 60px">採用予定数/年</th>
+                <th style="min-width: 60px">採用予定数・規模</th>
                 <th style="min-width: 100px">継続性</th>
                 <th style="min-width: 70px">申請締め切り時期</th>
                 <th style="min-width: 70px">所得の扱い</th>
