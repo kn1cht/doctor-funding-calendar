@@ -1,4 +1,5 @@
 abbr-name: 文科省フェローシップ
+ended: true
 full-name: 科学技術イノベーション創出に向けた大学フェローシップ創設事業
 month: 冬～春
 url : https://www.jst.go.jp/jisedai/fellowship/index.html
@@ -9,8 +10,8 @@ duration: 3年
 eligible_person: 採用時、博士課程1年目など（採択された大学に所属・令和5年度時点で46大学）
 eligible_area: 全分野（情報AI・量子・マテリアルの3分野は専用枠あり）
 accepted_num: 1000人
-continuity: 令和7年度進学者まで計画
+continuity: 終了
 deadline: 冬～春（大学ごとに異なる）
 income_category: 雑所得
 other_income: 学振特別研究員、研究奨励費が出る他のプログラム、社会人学生、留学生支援不可
-note: 大学ごとにプログラムを創設して実施
+note: 大学ごとにプログラムを創設して実施<br>令和6年度をもって事業は終了し、全プロジェクトはSPRINGに統合された

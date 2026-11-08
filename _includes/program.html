@@ -1,10 +1,10 @@
 {%- assign program = site.data.program[include.name] -%}
 
-<div class="container bg-white rounded pb-1 mt-5 mb-5">
+<div class="container bg-white rounded pb-1 mt-5 mb-5"{% if program.ended %} style="color: #999;"{% endif %}>
   <div class="row">
     <div class="col-12 p-4 pb-0">
       <a name="{{ include.name }}"></a>
-      <h2 class="border-bottom mb-1">{{ program.abbr-name }}</h2>
+      <h2 class="border-bottom mb-1">{{ program.abbr-name }}{% if program.ended %}（終了）{% elsif program.recruitment_closed %}（通常新規募集終了・支援継続中）{% endif %}</h2>
     </div>
   </div>
   <div class="row justify-content-md-center">
@@ -25,7 +25,7 @@
             {{ program.living_funding }}
           </div>
           <div class="col fw-light">
-            <span class="lh-1 fw-bold"><small>研究費・開発費（年額）</small></span><br>
+            <span class="lh-1 fw-bold"><small>研究費・開発費（{{ program.research_funding_unit | default: "年額" }}）</small></span><br>
             {{ program.research_funding }}
           </div>
           <div class="col fw-light">
@@ -43,7 +43,7 @@
             {{ program.eligible_area }}
           </div>
           <div class="col fw-light">
-            <span class="lh-1 fw-bold"><small>採用予定数/年</small></span><br>
+            <span class="lh-1 fw-bold"><small>採用予定数・規模</small></span><br>
             {{ program.accepted_num }}
           </div>
         </div>
