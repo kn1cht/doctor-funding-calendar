@@ -50,23 +50,29 @@
       </div>
     </div>
     {%- endfor -%}
-    <div class="d-flex col-md-10 m-2 p-0" style="background-color: #eee;">
-      <div class="col-3 my-2 px-1">
-        <p class="m-0 small"><b>不明・不定：</b></p>
+    <div class="col-md-10 m-2 p-0" style="background-color: #eee;">
+      <div class="row g-0">
+        <div class="col-3 my-2 px-1">
+          <p class="m-0 small"><b>不明・不定：</b></p>
+        </div>
+        <div class="col-9">
+          <div class="row g-0">
+            {%- for program in programs -%}
+            {% assign programdata = site.data.program[program] %}
+            {% capture display_name %}{{programdata.abbr-name}}
+            {% endcapture %}
+            {% if programdata.month == "不明・不定" and programdata.ended != true and programdata.recruitment_closed != true %}
+            <div class="col-4 my-2 px-1">
+              <a href="#{{ program }}" style="text-decoration: none;"
+                  title="{{display_name}}">
+                <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
+              </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
       </div>
-      {%- for program in programs -%}
-      {% assign programdata = site.data.program[program] %}
-      {% capture display_name %}{{programdata.abbr-name}}
-      {% endcapture %}
-      {% if programdata.month == "不明・不定" and programdata.ended != true and programdata.recruitment_closed != true %}
-      <div class="col-3 my-2 px-1">
-        <a  href="#{{ program }}" style="text-decoration: none;"
-            title="{{display_name}}">
-          <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
     </div>
 
     <small>
