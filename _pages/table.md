@@ -45,7 +45,7 @@ datatable: true
                 </td>
                 <td>{{ program.organizer }}</td>
                 <td>{{ program.living_funding }}</td>
-                <td>{{ program.research_funding }}</td>
+                <td>{{ program.research_funding }}{% if program.research_funding_unit %}<br><small>（{{ program.research_funding_unit }}）</small>{% endif %}</td>
                 <td>{{ program.duration }}</td>
                 <td><small>{{ program.eligible_person }}</small></td>
                 <td><small>{{ program.eligible_area }}</small></td>
