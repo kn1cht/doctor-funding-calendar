@@ -1,10 +1,10 @@
 {%- assign program = site.data.program[include.name] -%}
 
-<div class="container bg-white rounded pb-1 mt-5 mb-5">
+<div class="container bg-white rounded pb-1 mt-5 mb-5"{% if program.ended %} style="color: #999;"{% endif %}>
   <div class="row">
     <div class="col-12 p-4 pb-0">
       <a name="{{ include.name }}"></a>
-      <h2 class="border-bottom mb-1">{{ program.abbr-name }}</h2>
+      <h2 class="border-bottom mb-1">{{ program.abbr-name }}{% if program.ended %}（終了）{% endif %}</h2>
     </div>
   </div>
   <div class="row justify-content-md-center">

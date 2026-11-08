@@ -6,10 +6,8 @@
 DoctorFunding:
 - DC1
 - DC2
-- mextfellowship
 - univ-excellence
 - SPRING
-- BOOST
 - souhatsu
 - takuetsu
 - ACT-X
@@ -19,3 +17,5 @@ DoctorFunding:
 - nims-ra
 - mitou
 - kakusei
+- mextfellowship
+- BOOST

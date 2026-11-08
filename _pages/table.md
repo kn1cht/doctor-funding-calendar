@@ -36,11 +36,11 @@ datatable: true
         <tbody>
             {%- for item in site.data.category["DoctorFunding"] -%}
             {%- assign program = site.data.program[item] -%}
-            <tr>
+            <tr{% if program.ended %} class="text-secondary"{% endif %}>
                 <td>{{ forloop.index }}</td>
                 <td>
                     <a href="{{ program.url }}" target="_blank" rel="noopener noreferrer">
-                        {{ program.full-name }}
+                        {{ program.full-name }}{% if program.ended %}（終了）{% endif %}
                     </a>
                 </td>
                 <td>{{ program.organizer }}</td>
